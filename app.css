@@ -40,6 +40,9 @@ a:hover {
   background-color: #00a0af;
   color: #eeffff;
 }
+.header a:hover {
+  text-decoration: none;
+}
 .speaker-list {
   text-align: center;
 }
@@ -57,6 +60,14 @@ a:hover {
 .speaker-intro p {
   letter-spacing: 2px;
   line-height: 1.3em;
+}
+.session-table {
+  overflow-x: auto;
+  padding-bottom: 20px;
+  -webkit-overflow-scrolling: touch;
+}
+.session-table table {
+  min-width: 100%;
 }
 
 .hex {
