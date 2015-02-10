@@ -2,14 +2,17 @@
 
 @sqrt-three: 1.73;
 
+.hex-path() {
+    -webkit-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
 .hexagon-basic() {
     position: relative;
     background-color: white;
     overflow: hidden;
 
-    -webkit-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-    -moz-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    .hex-path();
 
     .hex-content {
         position: absolute;
@@ -35,18 +38,6 @@
 
 .hex {
     .hexagon-basic();
-    cursor: pointer;
-
-    h3 {
-        letter-spacing: 4.2px;
-        font-size: 150%;
-        line-height: 1.4em;
-        margin: 0;
-    }
-    p {
-        letter-spacing: 2px;
-        line-height: 1.3em;
-    }
 }
 
 @outline-stroke: 3;
@@ -72,7 +63,6 @@
 
 .hex-img {
     background-color: @hsa-color;
-    /*.transition(opacity @apple-curve 0.3s);*/
     position: absolute;
     top: 0;
     left: 0;
@@ -81,9 +71,10 @@
     overflow: hidden;
     text-align: center;
 
+    .hex-path();
+
     img {
         min-height: 100%;
-        // .transition(filter 0.2s);
     }
 
     &-origin {
@@ -105,4 +96,17 @@
 .hex-o-s1 {
     margin: 0 auto;
     .hexagon(180 + @additional-length);
+}
+
+.hex-content-sm {
+    display: none;
+}
+
+@media (max-width: 640px) {
+    .hex-content {
+        display: none;
+    }
+    .hex-content-sm {
+        display: block;
+    }
 }

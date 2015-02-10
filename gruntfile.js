@@ -57,6 +57,9 @@ module.exports = function (grunt) {
         },
         jade: {
             compile: {
+                options: {
+                    data: require('./jade.compile.template')
+                },
                 files: [{
                     expand: true,
                     cwd: 'templates/jade/',

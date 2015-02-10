@@ -3,10 +3,14 @@ extends layout.jade
 block content
     h1 Speakers
     .speaker-list: ul
-        li
-            .hex.hex-o.hex-o-s1: .hex-o-h: .hex.hex-s1
-                .hex-img.hex-img-blurred: img(src="http://graph.facebook.com/100002087628086/picture?redirect=1&type=large")
-                .hex-img.hex-img-origin: img(src="http://graph.facebook.com/100002087628086/picture?redirect=1&type=large")
-                .hex-content
-                    h3 Medicine Yeh
-                    p PASLAB Student
+        each speaker in speakers
+            li
+                .hex.hex-o.hex-o-s1: .hex-o-h: .hex.hex-s1
+                    .hex-img.hex-img-blurred: img(src=speaker.photoUrl)
+                    .hex-img.hex-img-origin: img(src=speaker.photoUrl)
+                    .hex-content.speaker-intro
+                        h3= speaker.name
+                        p= speaker.intro
+                .hex-content-sm.speaker-intro
+                    h3= speaker.name
+                    p= speaker.intro

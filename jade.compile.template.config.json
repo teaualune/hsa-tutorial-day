@@ -1,0 +1,8 @@
+{
+    "templates/jade/index.page.jade": {
+        "data": "data/index.json"
+    },
+    "templates/jade/speakers.page.jade": {
+        "data": "data/speakers.json"
+    }
+}
