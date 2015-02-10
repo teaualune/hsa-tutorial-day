@@ -32,6 +32,12 @@ a {
 .header {
     background-color: @hsa-color;
     color: @white;
+
+    a {
+        &:hover {
+            text-decoration: none;
+        }
+    }
 }
 
 .speaker-list {
@@ -55,5 +61,15 @@ a {
     p {
         letter-spacing: 2px;
         line-height: 1.3em;
+    }
+}
+
+.session-table {
+    overflow-x: auto;
+    padding-bottom: 20px;
+    -webkit-overflow-scrolling: touch;
+
+    table {
+        min-width: 100%;
     }
 }

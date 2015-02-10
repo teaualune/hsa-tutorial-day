@@ -4,5 +4,8 @@
     },
     "templates/jade/speakers.page.jade": {
         "data": "data/speakers.json"
+    },
+    "templates/jade/sessions.page.jade": {
+        "data": "data/sessions.json"
     }
 }
