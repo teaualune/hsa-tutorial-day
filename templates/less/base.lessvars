@@ -1,0 +1,7 @@
+@import "../../lib/lesshat/build/lesshat.less";
+
+@hsa-color: #00a0af;
+
+@black: #011;
+
+@white: #eff;

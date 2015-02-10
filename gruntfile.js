@@ -3,7 +3,7 @@
 module.exports = function (grunt) {
 
     var files = {
-            jade: 'templates/view/*.jade',
+            jade: 'templates/jade/*.jade',
             less: 'templates/less/*.less',
             css: 'css/*.css',
             js: 'js/*.js'

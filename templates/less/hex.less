@@ -1,0 +1,108 @@
+@import "./base.lessvars";
+
+@sqrt-three: 1.73;
+
+.hexagon-basic() {
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+
+    -webkit-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    -moz-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+
+    .hex-content {
+        position: absolute;
+        overflow: hidden;
+        color: @white;
+    }
+};
+
+.hexagon(@_hex-size) {
+    @hex-size: @_hex-size * 1px;
+    @hex-width: floor(@hex-size * @sqrt-three);
+
+    width: @hex-width - 1px;
+    height: 2 * @hex-size;
+
+    .hex-content {
+        top: @hex-size / 2;
+        left: @hex-size / 10;
+        right: @hex-size / 10;
+        bottom: @hex-size / 2;
+    }
+};
+
+.hex {
+    .hexagon-basic();
+    cursor: pointer;
+
+    h3 {
+        letter-spacing: 4.2px;
+        font-size: 150%;
+        line-height: 1.4em;
+        margin: 0;
+    }
+    p {
+        letter-spacing: 2px;
+        line-height: 1.3em;
+    }
+}
+
+@outline-stroke: 3;
+@additional-length: @outline-stroke * 2 / @sqrt-three;
+
+.hex-o {
+    margin: 0 auto;
+    background-color: @hsa-color;
+    &:hover {
+        .hex-img {
+            &-origin {
+                .opacity(0);
+            }
+        }
+    }
+}
+
+.hex-o-h {
+    position: absolute;
+    top: @additional-length * 1px;
+    left: 3px;
+}
+
+.hex-img {
+    background-color: @hsa-color;
+    /*.transition(opacity @apple-curve 0.3s);*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    text-align: center;
+
+    img {
+        min-height: 100%;
+        // .transition(filter 0.2s);
+    }
+
+    &-origin {
+        .opacity(1);
+        .transition(opacity 0.2s);
+    }
+
+    &-blurred {
+        img {
+            .filter(blur(8px));
+        }
+    }
+}
+
+.hex-s1 {
+    .hexagon(180);
+}
+
+.hex-o-s1 {
+    margin: 0 auto;
+    .hexagon(180 + @additional-length);
+}

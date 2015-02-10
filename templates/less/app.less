@@ -1,11 +1,9 @@
-@import "../../lib/lesshat/build/lesshat.less";
-
-@hsa-color: #00a0af;
+@import "./base.lessvars";
 
 body {
-    font-family: "Merriweather", "Helvetica Neue", serif;
+    font-family: "Helvetica Neue", serif;
     font-size: 14px;
-    color: #011;
+    color: @black;
 }
 
 a {
@@ -24,5 +22,16 @@ a {
 
 .header {
     background-color: @hsa-color;
-    color: #eff;
+    color: @white;
 }
+
+.speaker-list {
+    text-align: center;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+}
+
