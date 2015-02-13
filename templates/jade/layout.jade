@@ -5,7 +5,18 @@ html(lang="en", xmlns="http://www.w3.org/1999/xhtml")
         meta(name="viewport", content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no")
         link(rel="stylesheet", type="text/css", href="app.css")
     body
-        include ./header.jade
-        .container
-            block content
+        div(id="container")
+            include ./header.jade
+            .container
+                block content
+            block bottom
         script(type="text/javascript", src="app.min.js")
+    footer
+        div
+            hr
+            h3 contact us: hungsh@csie.ntu.edu.tw
+            p 
+                | Logo and design by 
+                a(href="https://github.com/MedicineYeh") Medicine Yeh
+                | &
+                a(href="https://github.com/teaualune") Lawrence Tseng

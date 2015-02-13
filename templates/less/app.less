@@ -6,6 +6,9 @@ body {
     color: @black;
 }
 
+html, body, #container { height: 100%; }
+#container { height: auto; min-height: 100%;}
+
 a {
     color: @hsa-color;
     text-decoration: none;
@@ -15,11 +18,33 @@ a {
     }
 }
 
+footer a {
+	color: blue;
+}
+
 img {
     margin: 2px;
     margin-right: 15px;
 }
 
+h2 {
+	text-align: center;
+}
+
+.bottom {
+	text-align: center;
+	background-color: #00a0af;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	background-color: #00a0af;
+	position: relative;
+    z-index: 10;
+    height: 6em;
+	margin-top: -6em;
+}
 /*
  * overrides
  */
