@@ -18,12 +18,44 @@ body {
   font-size: 14px;
   color: #001111;
 }
+html,
+body,
+#container {
+  height: 100%;
+}
+#container {
+  height: auto;
+  min-height: 100%;
+}
 a {
   color: #00a0af;
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
+}
+footer a {
+  color: blue;
+}
+img {
+  margin: 2px;
+  margin-right: 15px;
+}
+h2 {
+  text-align: center;
+}
+.bottom {
+  text-align: center;
+  background-color: #00a0af;
+}
+footer {
+  clear: both;
+  text-align: center;
+  background-color: #00a0af;
+  position: relative;
+  z-index: 10;
+  height: 6em;
+  margin-top: -6em;
 }
 /*
  * overrides
@@ -65,6 +97,21 @@ a:hover {
   overflow-x: auto;
   padding-bottom: 20px;
   -webkit-overflow-scrolling: touch;
+}
+.session-table th {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+.session-table td {
+  text-align: center;
+  font-weight: bold;
+}
+.session-table tr:hover {
+  background-color: #e2e2e2;
+}
+.session-table .one-column {
+  background-color: #e2e2e2;
 }
 .session-table table {
   min-width: 100%;
