@@ -5,14 +5,17 @@ block content
     .session-table
         table.pure-table
             thead: tr
+                th Time
                 th Title
                 th Speaker
-                th Introduction
-                th Time
             tbody
                 each s in sessions
-                    tr
-                        th= s.title
-                        th= s.speaker
-                        th= s.intro
-                        th= s.time
+                    if s.span
+                        tr(class="one-column")
+                            td= s.time
+                            td(colspan="3")= s.title
+                    else
+                        tr
+                            td= s.time
+                            td= s.title
+                            td= s.speaker
