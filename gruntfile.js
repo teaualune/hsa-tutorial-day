@@ -10,6 +10,7 @@ module.exports = function (grunt) {
         },
         libCss = [
             'lib/pure/css/pure-min.css',
+            'lib/pure/css/grids-responsive-min.css',
             'lib/font-awesome/css/font-awesome.min.css'
         ]
 
