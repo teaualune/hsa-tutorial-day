@@ -55,6 +55,14 @@ footer {
 .pure-menu .pure-menu-heading {
   padding-left: 0;
 }
+.pure-menu .pure-menu-heading img {
+  width: 160px;
+}
+@media (max-width: 48em) {
+  .pure-menu .pure-menu-heading {
+    text-align: center;
+  }
+}
 .container {
   max-width: 984px;
   margin: 0 auto;
