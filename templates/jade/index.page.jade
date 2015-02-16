@@ -2,8 +2,8 @@ extends layout.jade
 
 block content
     section.pure-g
-        .pure-u-1-2.img-block: img(src="logo-color.png", alt="NTU HSA Tutorial Day")
-        .pure-u-1-2.img-block: img(src="logo-time.png", alt="Time")
+        .pure-u-1.pure-u-md-1-3.img-block: img(src="logo-color.png", alt="NTU HSA Tutorial Day")
+        .pure-u-1.pure-u-md-1-3.img-block: img(src="logo-time.png", alt="Time")
         //- .pure-u-1-2.date
             span.year 2015
             span.month March
@@ -11,7 +11,7 @@ block content
             span.place NTU
     section
         h2 HSA 異質運算
-        h3= p2
+        p= p2
     hr
     section
         h2 Sponsor 特別感謝
@@ -23,7 +23,7 @@ block bottom
     section.map-info
         .container
             h2 &dash;&nbsp;活動地點&nbsp;&dash;
-            h3
+            p
                 | 國立臺灣大學 National Taiwan University
                 br
                 | 10617 臺北市羅斯福路四段一號 博理館2樓201

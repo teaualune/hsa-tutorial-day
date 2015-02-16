@@ -24,6 +24,14 @@ a {
     }
 }
 
+p {
+    line-height: 1.3em;
+
+    @media (min-width: 48em) {
+        line-height: 2em;
+    }
+}
+
 h2 {
     text-align: center;
 }
@@ -42,15 +50,21 @@ section, footer {
  * overrides
  */
 
-.pure-menu .pure-menu-heading {
-    padding-left: 0;
-
-    img {
-        width: 160px;
-    }
-
+.pure-menu {
     @media (max-width: 48em) {
         text-align: center;
+    }
+
+    .pure-menu-heading {
+        padding-left: 0;
+
+        img {
+            width: 180px;
+
+            @media (max-width: 48em) {
+                width: 160px;
+            }
+        }
     }
 }
 
@@ -62,6 +76,12 @@ section, footer {
 
 .header {
     color: @white;
+
+    a {
+        @media (min-width: 48em) {
+            font-size: 135%;
+        }
+    }
 }
 
 .header, .footer {
