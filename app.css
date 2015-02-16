@@ -39,6 +39,14 @@ a {
 a:hover {
   text-decoration: underline;
 }
+p {
+  line-height: 1.3em;
+}
+@media (min-width: 48em) {
+  p {
+    line-height: 2em;
+  }
+}
 h2 {
   text-align: center;
 }
@@ -52,15 +60,20 @@ footer {
 /*
  * overrides
  */
+@media (max-width: 48em) {
+  .pure-menu {
+    text-align: center;
+  }
+}
 .pure-menu .pure-menu-heading {
   padding-left: 0;
 }
 .pure-menu .pure-menu-heading img {
-  width: 160px;
+  width: 180px;
 }
 @media (max-width: 48em) {
-  .pure-menu .pure-menu-heading {
-    text-align: center;
+  .pure-menu .pure-menu-heading img {
+    width: 160px;
   }
 }
 .container {
@@ -70,6 +83,11 @@ footer {
 }
 .header {
   color: #eeffff;
+}
+@media (min-width: 48em) {
+  .header a {
+    font-size: 135%;
+  }
 }
 .header,
 .footer {
