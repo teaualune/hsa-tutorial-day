@@ -6,9 +6,14 @@ body {
     color: @black;
 }
 
-html, body, #main-warp { height: 100%; }
-#main-warp { height: auto; min-height: 100%;}
-#main-warp > #main-content {padding-bottom: 8em;}
+html, body {
+    height: 100%;
+}
+
+.main {
+    min-height: 100%;
+    // .box-sizing(border-box);
+}
 
 a {
     color: @hsa-color;
@@ -19,50 +24,20 @@ a {
     }
 }
 
-footer a {
-	color: blue;
-}
-
-img {
-    margin: 2px;
-    margin-right: 15px;
-}
-
-h2 > img {
-    margin: 0px;
-}
-
-dd {
-    display: inline;
-	margin-left: 0px;
-}
-
-dd > img {
-    min-width: 150px;
-    max-width: 330px;
-    max-height: 120px;
-    margin: 0px;
-    margin-bottom: 30px;
-}
-
 h2 {
-	text-align: center;
+    text-align: center;
 }
 
-.bottom {
-    text-align: center;
-    background-color: #00a0af;
+.img-block {
+    img {
+        max-width: 100%;
+    }
 }
 
-footer {
-    clear: both;
-    text-align: center;
-    background-color: #00a0af;
-    position: relative;
-    z-index: 10;
-    height: 7em;
-    margin-top: -7.5em;
+section, footer {
+    padding: 20px 0;
 }
+
 /*
  * overrides
  */
@@ -78,12 +53,40 @@ footer {
 }
 
 .header {
+    color: @white;
+}
+
+.header, .footer {
+    background-color: @hsa-color;
+
+    a {
+        color: @white;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.sponsors {
+
+    .img-block {
+        width: 80%;
+        margin: 10px 10%;
+    }
+}
+
+.map-info {
     background-color: @hsa-color;
     color: @white;
 
-    a {
-        &:hover {
-            text-decoration: none;
+    iframe {
+        width: 100%;
+        height: 430px;
+        border: 0;
+
+        @media (max-width: 48em) {
+            height: 210px;
         }
     }
 }
@@ -91,12 +94,9 @@ footer {
 .speaker-list {
     text-align: center;
 
-    ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
+    .hex-o {
+        margin: 15px auto;
     }
-
 }
 
 .speaker-intro {
@@ -119,8 +119,8 @@ footer {
 
     th {
         text-align: center;
-        background-color: #333;
-        color: #fff;
+        background-color: @th-bg;
+        color: @white;
     }
 
     td {
@@ -128,12 +128,8 @@ footer {
         font-weight: bold;
     }
 
-    tr:hover{
-        background-color: #e2e2e2;
-    }
-
-    .one-column {
-        background-color: #e2e2e2;
+    tr:hover, .one-column {
+        background-color: @table-hover;
     }
 
     table {

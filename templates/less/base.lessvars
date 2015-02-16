@@ -5,3 +5,9 @@
 @black: #011;
 
 @white: #eff;
+
+@blue: #00f;
+
+@th-bg: #333;
+
+@table-hover: #e2e2e2;

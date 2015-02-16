@@ -1,13 +1,13 @@
 {
     "speakers": [{
-        "name": "Medicine Yeh",
-        "intro": "PASLAB Student",
-        "photoUrl": "http://graph.facebook.com/100002087628086/picture?redirect=1&type=large"
-    },
-    {
         "name": "洪士灝 教授",
         "intro": "PASLAB",
         "photoUrl": "http://graph.facebook.com/shihhaohung/picture?redirect=1&type=large"
+    },
+    {
+        "name": "Medicine Yeh",
+        "intro": "PASLAB Student",
+        "photoUrl": "http://graph.facebook.com/100002087628086/picture?redirect=1&type=large"
     },
     {
         "name": "Michael Ruan",

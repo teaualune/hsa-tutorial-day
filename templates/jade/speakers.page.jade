@@ -2,9 +2,9 @@ extends layout.jade
 
 block content
     h1 Speakers
-    .speaker-list: ul
+    .speaker-list.pure-g
         each speaker in speakers
-            li(class="pure-u-1 pure-u-lg-1-3")
+            .pure-u-1.pure-u-md-1-2.pure-u-lg-1-3
                 .hex.hex-o.hex-o-s1: .hex-o-h: .hex.hex-s1
                     .hex-img.hex-img-blurred: img(src=speaker.photoUrl)
                     .hex-img.hex-img-origin: img(src=speaker.photoUrl)

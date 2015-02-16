@@ -18,6 +18,8 @@
         position: absolute;
         overflow: hidden;
         color: @white;
+        .opacity(0.2);
+        .transition(opacity 0.2s);
     }
 };
 
@@ -51,6 +53,10 @@
             &-origin {
                 .opacity(0);
             }
+        }
+
+        .hex-content {
+            .opacity(1);
         }
     }
 }
@@ -89,20 +95,22 @@
     }
 }
 
+@speaker-size: 160;
+
 .hex-s1 {
-    .hexagon(180);
+    .hexagon(@speaker-size);
 }
 
 .hex-o-s1 {
     margin: 0 auto;
-    .hexagon(180 + @additional-length);
+    .hexagon(@speaker-size + @additional-length);
 }
 
 .hex-content-sm {
     display: none;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 48em) {
     .hex-content {
         display: none;
     }
