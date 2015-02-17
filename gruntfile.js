@@ -10,8 +10,7 @@ module.exports = function (grunt) {
         },
         libCss = [
             'lib/pure/css/pure-min.css',
-            'lib/pure/css/grids-responsive-min.css',
-            'lib/font-awesome/css/font-awesome.min.css'
+            'lib/pure/css/grids-responsive-min.css'
         ]
 
     grunt.initConfig({
@@ -84,11 +83,6 @@ module.exports = function (grunt) {
         copy: {
             assets: {
                 files: [{
-                    expand: true,
-                    cwd: 'lib/font-awesome/fonts/',
-                    src: ['**'],
-                    dest: 'dist/'
-                }, {
                     expand: true,
                     cwd: 'images/',
                     src: ['**'],

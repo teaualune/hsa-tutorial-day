@@ -7,5 +7,8 @@
     },
     "templates/jade/sessions.page.jade": {
         "data": "data/sessions.json"
+    },
+    "templates/jade/register.page.jade": {
+        "data": "data/register.json"
     }
 }

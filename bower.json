@@ -3,7 +3,6 @@
     "version": "0.0.1",
     "description": "The website for HSA Tutorial Day held by CSIE, NTU",
     "dependencies": {
-        "font-awesome": "~4.3.0",
         "lesshat": "~3.0.2",
         "pure": "https://github.com/teaualune/pure.git#release-v6"
     }
