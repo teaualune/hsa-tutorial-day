@@ -1,9 +1,13 @@
 doctype html
-html(lang="en", xmlns="http://www.w3.org/1999/xhtml")
+html(lang="zh-TW", xmlns="http://www.w3.org/1999/xhtml")
     head
         title NTU HSA Tutorial Day
+        meta(http-equiv="Content-Type", content="text/html;charset=utf-8")
         meta(name="viewport", content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no")
         link(rel="stylesheet", type="text/css", href="app.css")
+        link(rel="icon", type="image/png", href="/hsa-tutorial-day/favicon-32x32.png", sizes="32x32")
+        link(rel="shortcut icon", type="image/x-icon", href="/hsa-tutorial-day/favicon.ico")
+        link(rel="apple-touch-icon", href="/hsa-tutorial-day/apple-touch-icon-180x180.png")
     body
         include ./header.jade
         .main.container
@@ -18,4 +22,6 @@ html(lang="en", xmlns="http://www.w3.org/1999/xhtml")
                 a(href="https://github.com/teaualune") Lawrence Tseng
                 | &nbsp;&amp;&nbsp;
                 a(href="https://github.com/MedicineYeh") Medicine Yeh
-        script(type="text/javascript", src="app.min.js")
+        if scripts && scripts.length
+            each s in scripts
+                script(type="text/javascript", src=s)

@@ -82,13 +82,18 @@ module.exports = function (grunt) {
             }
         },
         copy: {
-            fa: {
+            assets: {
                 files: [{
                     expand: true,
                     cwd: 'lib/font-awesome/fonts/',
                     src: ['**'],
                     dest: 'dist/'
-                }],
+                }, {
+                    expand: true,
+                    cwd: 'images/',
+                    src: ['**'],
+                    dest: 'dist/'
+                }]
             }
         }
     });
@@ -102,7 +107,7 @@ module.exports = function (grunt) {
 
     grunt.registerTask('html', ['jade']);
     grunt.registerTask('js', ['jshint', 'concat:js', 'uglify']);
-    grunt.registerTask('css', ['less', 'concat:css', 'copy:fa']);
+    grunt.registerTask('css', ['less', 'concat:css']);
 
-    grunt.registerTask('default', ['html', 'js', 'css', 'watch']);
+    grunt.registerTask('default', ['html', 'js', 'css', 'copy:assets', 'watch']);
 };

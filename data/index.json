@@ -1,13 +1,44 @@
 {
-	"p1": "HSA is an emerging standard for heterogeneous multicore computing systems and has become an important topic for research, development, and education in computer architecture and system software. However, based on our experience at NTU, HSA covers a wide spectrum of hardware and software issues and is difficult even for experienced hardware designers and software developers to tackle alone. Thus, we believe that a set of tutorial sessions would be instrumental to bring students and engineers up to speed. Fortunately, there are some preliminary open-source tutorial materials for HSA, created by pioneers and early participants, which we can leverage to educate ourselves. After 4 months of group studying and discussions, we think that it is a great idea to share our experience to the public and help to jump-start novice who are interested in HSA. By the proposed HSA Tutorial Day, we hope to inspire a series of activities to strengthen the links between architecture and system software communities promote the exchange of knowledge and ideas between the academia and industry in Taiwan.",
-	"p2": "活動的緣起是我們在過去一年帶領著學生蒐集研讀HSA相關資料的時候，發現HSA的門檻極高，對於新進的研究生、工程師，是極大的挑戰，不易入門，要融會貫通更是難上加難。因此，我們自發性地發起這個活動，希望能用一天的時間，將國內對於HSA有興趣的學界師生、業界朋友們聚集在一起，在一天的免費的活動中，由台大研究團隊中優秀的學生對於HSA軟硬體的重要概念進行解說，同時有學界研究計畫的攤位展示，以及編撰教學資源手冊分享給大家。我們已獲得業界的初步首肯，包括MTK、AMD、Marvell、ITRI、QNAP等公司的支持，希望能因此將活動辦得有聲有色。將有不少業界 先進前來參與，包括設攤位、參與Panel Discussion等，希望藉此促進產學交流，也讓台大團隊在學界與業界的能見度提高。除了徐慰中教授的學生，我們也已經安排了郭大維教授、楊佳玲教授、施吉昇教授、廖世偉教授的學生，從兩個月之前就開始一起來規劃這個活動，希望能展現台大團隊的實力。我們也將邀請其他大聯盟的師生，來參與各項活動，共襄盛舉。",
-    "sponsors": [
-        {"name": "NTU", "logo": "http://www.ntu.edu.tw/images/logo.png"},
-        {"name": "AMD", "logo": "http://wallhud.com/wp-content/uploads/2014/12/amd_logo_images.png"},
-        {"name": "ITRI", "logo": "https://moeapromotioneufp7.files.wordpress.com/2009/02/itri_cel_a.gif"},
-        {"name": "QNAP", "logo": "http://upload.wikimedia.org/wikipedia/commons/f/f0/Qnap_Logo_2004.svg"},
-        {"name": "MTK", "logo": "http://upload.wikimedia.org/wikipedia/commons/d/df/Mediatek_2014_logo.png"},
-        {"name": "Marvell", "logo": "http://semiaccurate.com/assets/uploads/2011/09/Marvell-logo.png"}
+	"p1": [
+        "HSA is an emerging standard for heterogeneous multicore computing systems and has become an important topic for research, development, and education in computer architecture and system software. However, based on our experience at NTU, HSA covers a wide spectrum of hardware and software issues and is difficult even for experienced hardware designers and software developers to tackle alone.",
+        "Thus, we believe that a set of tutorial sessions would be instrumental to bring students and engineers up to speed. Fortunately, there are some preliminary open-source tutorial materials for HSA, created by pioneers and early participants, which we can leverage to educate ourselves. After 4 months of group studying and discussions, we think that it is a great idea to share our experience to the public and help to jump-start novice who are interested in HSA.",
+        "By the proposed HSA Tutorial Day, we hope to inspire a series of activities to strengthen the links between architecture and system software communities promote the exchange of knowledge and ideas between the academia and industry in Taiwan."
     ],
+    "p2": [
+        "我們在過去一年帶領著學生蒐集研讀HSA相關資料的時候，發現HSA的門檻極高，對於新進的研究生、工程師，是極大的挑戰，不易入門，要融會貫通更是難上加難。",
+        "因此，我們自發性地發起這個活動，希望能用一天的時間，將國內對於HSA有興趣的學界師生、業界朋友們聚集在一起，在一天的免費的活動中，由台大研究團隊中優秀的學生對於HSA軟硬體的重要概念進行解說，同時有學界研究計畫的攤位展示，以及編撰教學資源手冊分享給大家。",
+        "我們已獲得業界的初步首肯，包括MTK、AMD、Marvell、ITRI、QNAP等公司的支持，希望能因此將活動辦得有聲有色。將有不少業界先進前來參與，包括設攤位、參與Panel Discussion等，希望藉此促進產學交流，也讓台大團隊在學界與業界的能見度提高。",
+        "除了徐慰中教授的學生，我們也已經安排了郭大維教授、楊佳玲教授、施吉昇教授、廖世偉教授的學生，從兩個月之前就開始一起來規劃這個活動，希望能展現台大團隊的實力。我們也將邀請其他大聯盟的師生，來參與各項活動，共襄盛舉。"
+    ],
+    "sponsors": [{
+        "name": "NTU",
+        "full": "國立台灣大學",
+        "logo": "http://www.ntu.edu.tw/images/logo.png"
+    },
+    {
+        "name": "AMD",
+        "full": "AMD",
+        "logo": "http://wallhud.com/wp-content/uploads/2014/12/amd_logo_images.png"
+    },
+    {
+        "name": "ITRI",
+        "full": "工業技術研究院",
+        "logo": "https://moeapromotioneufp7.files.wordpress.com/2009/02/itri_cel_a.gif"
+    },
+    {
+        "name": "QNAP",
+        "full": "威聯通科技股份有限公司",
+        "logo": "http://upload.wikimedia.org/wikipedia/commons/f/f0/Qnap_Logo_2004.svg"
+    },
+    {
+        "name": "MTK",
+        "full": "聯發科技",
+        "logo": "http://upload.wikimedia.org/wikipedia/commons/d/df/Mediatek_2014_logo.png"
+    },
+    {
+        "name": "Marvell",
+        "full": "邁威爾科技有限公司",
+        "logo": "http://semiaccurate.com/assets/uploads/2011/09/Marvell-logo.png"
+    }],
     "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.4354488067047!2d121.54228615000001!3d25.01929234999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aa267599a865%3A0x3f33877e06900c37!2zMTA25Y-w5YyX5biC5aSn5a6J5Y2A6Ie654Gj5aSn5a245Y2a55CG6aSo!5e0!3m2!1szh-TW!2stw!4v1423835121185"
 }

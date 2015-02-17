@@ -11,3 +11,9 @@
 @th-bg: #333;
 
 @table-hover: #e2e2e2;
+
+@logo-red: #c1272d;
+
+@logo-green: #39b54a;
+
+@logo-orange: #f7931e;

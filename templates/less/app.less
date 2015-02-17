@@ -2,7 +2,7 @@
 
 body {
     font-family: "Helvetica Neue", serif;
-    font-size: 14px;
+    font-size: 16px;
     color: @black;
 }
 
@@ -12,7 +12,6 @@ html, body {
 
 .main {
     min-height: 100%;
-    // .box-sizing(border-box);
 }
 
 a {
@@ -46,6 +45,12 @@ section, footer {
     padding: 20px 0;
 }
 
+section {
+    > p {
+        text-indent: 2em;
+    }
+}
+
 /*
  * overrides
  */
@@ -66,6 +71,14 @@ section, footer {
             }
         }
     }
+
+    .register-item {
+        margin-bottom: 3px;
+
+        a {
+            background-color: @logo-red;
+        }
+    }
 }
 
 .container {
@@ -79,7 +92,13 @@ section, footer {
 
     a {
         @media (min-width: 48em) {
-            font-size: 135%;
+            font-size: 115%;
+        }
+    }
+
+    .container {
+        @media (max-width: 48em) {
+            padding: 0;
         }
     }
 }
@@ -96,7 +115,20 @@ section, footer {
     }
 }
 
+.logos  {
+    .img-block {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
 .sponsors {
+
+    h4 {
+        @media (min-width: 48em) {
+            display: none;
+        }
+    }
 
     .img-block {
         width: 80%;
