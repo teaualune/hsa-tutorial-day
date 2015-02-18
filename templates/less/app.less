@@ -193,7 +193,6 @@ section {
         text-align: center;
         background-color: @th-bg;
         color: @white;
-
     }
 
     td {
@@ -213,6 +212,10 @@ section {
 .th-time {
     width: 6em;
     table-layout: fixed;
+}
+
+.th-title {
+    min-width: 240px;
 }
 
 .th-speaker {
@@ -240,6 +243,10 @@ section {
     .session-intro {
         height: 500px;
         overflow-y: auto;
+
+        @media (max-width: 48em) {
+            height: 300px;
+        }
     }
 }
 
