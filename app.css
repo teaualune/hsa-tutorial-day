@@ -165,8 +165,13 @@ section > p {
 }
 .session-table {
   overflow-x: auto;
-  padding-bottom: 20px;
+  margin: 20px 0;
   -webkit-overflow-scrolling: touch;
+  border: 1px solid #cbcbcb;
+}
+.session-table table {
+  min-width: 100%;
+  border: 0;
 }
 .session-table th {
   text-align: center;
@@ -175,14 +180,48 @@ section > p {
 }
 .session-table td {
   text-align: center;
-  font-weight: bold;
 }
 .session-table tr:hover,
 .session-table .one-column {
   background-color: #e2e2e2;
 }
-.session-table table {
-  min-width: 100%;
+.session-table .toggle {
+  display: inline-block;
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  -o-transition: -o-transform 0.3s;
+  transition: -webkit-transform 0.3s,-moz-transform 0.3s,-o-transform 0.3s,transform 0.3s;
+}
+.th-time {
+  width: 6em;
+  table-layout: fixed;
+}
+.th-speaker {
+  width: 7em;
+  table-layout: fixed;
+}
+.session-intro {
+  height: 0;
+  overflow-y: hidden;
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  -o-transition: height 0.3s;
+  transition: height 0.3s;
+}
+.session-intro p {
+  text-align: left;
+  text-indent: 2em;
+}
+.show-intro .toggle {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.show-intro .session-intro {
+  height: 500px;
+  overflow-y: auto;
 }
 .register-form {
   margin: 0 -20px;
