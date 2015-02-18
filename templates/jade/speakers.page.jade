@@ -1,3 +1,9 @@
+mixin speakerInfo(speaker)
+    h3= speaker.name
+    if speaker.website
+        .speaker-website: a(href=speaker.website.url, target="_blank")= speaker.website.name
+    p= speaker.intro
+
 extends layout.jade
 
 block content
@@ -9,8 +15,6 @@ block content
                     .hex-img.hex-img-blurred: img(src=speaker.photoUrl)
                     .hex-img.hex-img-origin: img(src=speaker.photoUrl)
                     .hex-content.speaker-intro
-                        h3= speaker.name
-                        p= speaker.intro
-                .hex-content-sm.speaker-intro
-                    h3= speaker.name
-                    p= speaker.intro
+                        +speakerInfo(speaker)
+                .hex-content-sm
+                    +speakerInfo(speaker)
