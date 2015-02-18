@@ -7,19 +7,48 @@ block content
         br
         | 地點：台灣大學博理館2樓201
     .session-table
-        table.pure-table
+        table.pure-table.pure-table-horizontal
             thead: tr
-                th Time
+                th.th-time Time
                 th Title
-                th Speaker
+                th.th-speaker Speaker
             tbody
-                each s in sessions
-                    if s.span
+                each s, index in sessions
+                    if s.speaker
+                        tr(id="sess-" + index)
+                            td= s.time
+                            td
+                                | #{s.title}
+                                if s.intro
+                                    | &nbsp;
+                                    a(href="javascript:void(0);", onclick="t(" + index + ");")
+                                        span.toggle &dtrif;
+                                    .session-intro
+                                        if 'string' === typeof s.intro
+                                            p= s.intro
+                                        else
+                                            each i in s.intro
+                                                p= i
+                            td= s.speaker
+                        //- if s.intro
+                            tr.session-intro(hidden): td(colspan="3")
+                    else
                         tr.one-column
                             td= s.time
                             td(colspan="2")= s.title
-                    else
-                        tr
-                            td= s.time
-                            td= s.title
-                            td= s.speaker
+
+block bottom
+    script(type="text/javascript").
+        window.t = function (a) {
+            var e = document.getElementById('sess-' + a),
+                n = 'show-intro';
+            if (e.classList) {
+                e.classList.toggle(n);
+            } else {
+                var c = e.className.split(' '),
+                    i = c.indexOf(n);
+                if (i >= 0) c.splice(i, 1);
+                else c.push(n);
+                e.className = c.join(' ');
+            }
+        };

@@ -180,26 +180,66 @@ section {
 
 .session-table {
     overflow-x: auto;
-    padding-bottom: 20px;
+    margin: 20px 0;
     -webkit-overflow-scrolling: touch;
+    border: 1px solid #cbcbcb;
+
+    table {
+        min-width: 100%;
+        border: 0;
+    }
 
     th {
         text-align: center;
         background-color: @th-bg;
         color: @white;
+
     }
 
     td {
         text-align: center;
-        font-weight: bold;
     }
 
     tr:hover, .one-column {
         background-color: @table-hover;
     }
 
-    table {
-        min-width: 100%;
+    .toggle {
+        display: inline-block;
+        .transition(transform 0.3s);
+    }
+}
+
+.th-time {
+    width: 6em;
+    table-layout: fixed;
+}
+
+.th-speaker {
+    width: 7em;
+    table-layout: fixed;
+}
+
+.session-intro {
+    height: 0;
+    overflow-y: hidden;
+    .transition(height 0.3s);
+
+    p {
+        text-align: left;
+        text-indent: 2em;
+    }
+}
+
+.show-intro {
+
+    .toggle {
+        .transform(rotate(180deg));
+    }
+
+    .session-intro {
+        height: 500px;
+        overflow-y: auto;
     }
 }
 
