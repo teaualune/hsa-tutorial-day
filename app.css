@@ -140,6 +140,11 @@ section > p {
 }
 .speaker-list {
   text-align: center;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -ms-flex-pack: distribute;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
 }
 .speaker-list .hex-o {
   margin: 15px auto;
@@ -153,6 +158,10 @@ section > p {
 .speaker-intro p {
   letter-spacing: 2px;
   line-height: 1.3em;
+}
+.speaker-website {
+  text-align: center;
+  margin: 2px 0;
 }
 .session-table {
   overflow-x: auto;
@@ -196,10 +205,10 @@ section > p {
   overflow: hidden;
   color: #eeffff;
   zoom: 1;
-  filter: alpha(opacity=20);
-  -webkit-opacity: 0.2;
-  -moz-opacity: 0.2;
-  opacity: 0.2;
+  filter: alpha(opacity=0);
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
   -webkit-transition: opacity 0.2s;
   -moz-transition: opacity 0.2s;
   -o-transition: opacity 0.2s;
