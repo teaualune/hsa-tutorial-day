@@ -196,6 +196,9 @@ section > p {
   width: 6em;
   table-layout: fixed;
 }
+.th-title {
+  min-width: 240px;
+}
 .th-speaker {
   width: 7em;
   table-layout: fixed;
@@ -222,6 +225,11 @@ section > p {
 .show-intro .session-intro {
   height: 500px;
   overflow-y: auto;
+}
+@media (max-width: 48em) {
+  .show-intro .session-intro {
+    height: 300px;
+  }
 }
 .register-form {
   margin: 0 -20px;
