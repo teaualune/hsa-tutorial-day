@@ -21,8 +21,8 @@ block content
                                 | #{s.title}
                                 if s.intro
                                     | &nbsp;
-                                    a(href="javascript:void(0);", onclick="t(" + index + ");")
-                                        span.toggle &dtrif;
+                                    a.toggle(href="javascript:void(0);", onclick="t(" + index + ");")
+                                        span &dtrif;
                                     .session-intro
                                         if 'string' === typeof s.intro
                                             p= s.intro

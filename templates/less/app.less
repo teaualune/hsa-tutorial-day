@@ -204,8 +204,13 @@ section {
     }
 
     .toggle {
-        display: inline-block;
-        .transition(transform 0.3s);
+        font-size: 120%;
+
+        span {
+            width: 2em;
+            display: inline-block;
+            .transition(transform 0.3s);
+        }
     }
 }
 
@@ -237,7 +242,9 @@ section {
 .show-intro {
 
     .toggle {
-        .transform(rotate(180deg));
+        span {
+            .transform(rotate(180deg) translateY(-0.2em));
+        }
     }
 
     .session-intro {
