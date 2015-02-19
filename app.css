@@ -186,6 +186,10 @@ section > p {
   background-color: #e2e2e2;
 }
 .session-table .toggle {
+  font-size: 120%;
+}
+.session-table .toggle span {
+  width: 2em;
   display: inline-block;
   -webkit-transition: -webkit-transform 0.3s;
   -moz-transition: -moz-transform 0.3s;
@@ -215,12 +219,12 @@ section > p {
   text-align: left;
   text-indent: 2em;
 }
-.show-intro .toggle {
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
+.show-intro .toggle span {
+  -webkit-transform: rotate(180deg) translateY(-0.2em);
+  -moz-transform: rotate(180deg) translateY(-0.2em);
+  -o-transform: rotate(180deg) translateY(-0.2em);
+  -ms-transform: rotate(180deg) translateY(-0.2em);
+  transform: rotate(180deg) translateY(-0.2em);
 }
 .show-intro .session-intro {
   height: 500px;
