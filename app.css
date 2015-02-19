@@ -75,7 +75,7 @@ section > p {
     width: 160px;
   }
 }
-.pure-menu .register-item {
+.pure-menu .pure-menu-item {
   margin-bottom: 3px;
 }
 .pure-menu .register-item a {
@@ -165,7 +165,7 @@ section > p {
 }
 .session-table {
   overflow-x: auto;
-  margin: 20px 0;
+  margin: 20px -20px;
   -webkit-overflow-scrolling: touch;
   border: 1px solid #cbcbcb;
 }
