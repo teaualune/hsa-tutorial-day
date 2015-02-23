@@ -26,32 +26,44 @@
     "sponsors": [{
         "name": "NTU",
         "full": "國立台灣大學",
+        "url": "http://www.ntu.edu.tw",
         "logo": "http://www.ntu.edu.tw/images/logo.png"
     },
     {
         "name": "AMD",
         "full": "AMD",
+        "url": "http://www.amd.com",
         "logo": "http://wallhud.com/wp-content/uploads/2014/12/amd_logo_images.png"
     },
     {
         "name": "ITRI",
         "full": "工業技術研究院",
+        "url": "https://www.itri.org.tw",
         "logo": "https://moeapromotioneufp7.files.wordpress.com/2009/02/itri_cel_a.gif"
     },
     {
         "name": "QNAP",
         "full": "威聯通科技股份有限公司",
+        "url": "http://www.qnap.com",
         "logo": "http://upload.wikimedia.org/wikipedia/commons/f/f0/Qnap_Logo_2004.svg"
     },
     {
         "name": "MTK",
         "full": "聯發科技",
+        "url": "http://www.mediatek.com",
         "logo": "http://upload.wikimedia.org/wikipedia/commons/d/df/Mediatek_2014_logo.png"
     },
     {
         "name": "Marvell",
         "full": "邁威爾科技有限公司",
+        "url": "http://www.marvell.com",
         "logo": "http://semiaccurate.com/assets/uploads/2011/09/Marvell-logo.png"
+    },
+    {
+        "name": "ITSA",
+        "full": "教育部資通訊軟體人才培育計畫",
+        "url": "http://www.itsa.org.tw",
+        "logo": "/hsa-tutorial-day/itsa.png"
     }],
     "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.4354488067047!2d121.54228615000001!3d25.01929234999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aa267599a865%3A0x3f33877e06900c37!2zMTA25Y-w5YyX5biC5aSn5a6J5Y2A6Ie654Gj5aSn5a245Y2a55CG6aSo!5e0!3m2!1szh-TW!2stw!4v1423835121185"
 }
