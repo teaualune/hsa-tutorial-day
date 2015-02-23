@@ -120,14 +120,32 @@ section > p {
   width: 80%;
   margin: 0 auto;
 }
+.sponsors h4 {
+  text-align: center;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
 @media (min-width: 48em) {
   .sponsors h4 {
-    display: none;
+    zoom: 1;
+    filter: alpha(opacity=0);
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    opacity: 0;
   }
 }
 .sponsors .img-block {
   width: 80%;
   margin: 10px 10%;
+}
+.sponsor:hover h4 {
+  zoom: 1;
+  filter: alpha(opacity=100);
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
 }
 .map-info {
   background-color: #00a0af;
