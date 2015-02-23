@@ -1,14 +1,27 @@
 {
 	"p1": [
-        "HSA is an emerging standard for heterogeneous multicore computing systems and has become an important topic for research, development, and education in computer architecture and system software. However, based on our experience at NTU, HSA covers a wide spectrum of hardware and software issues and is difficult even for experienced hardware designers and software developers to tackle alone.",
-        "Thus, we believe that a set of tutorial sessions would be instrumental to bring students and engineers up to speed. Fortunately, there are some preliminary open-source tutorial materials for HSA, created by pioneers and early participants, which we can leverage to educate ourselves. After 4 months of group studying and discussions, we think that it is a great idea to share our experience to the public and help to jump-start novice who are interested in HSA.",
-        "By the proposed HSA Tutorial Day, we hope to inspire a series of activities to strengthen the links between architecture and system software communities promote the exchange of knowledge and ideas between the academia and industry in Taiwan."
+        {"p": "Heterogeneous System Architecture (HSA) is an emerging standard for heterogeneous multicore computing systems and has become an important topic for research, development, and education of the next-generation computer systems and applications. For Taiwan's high-tech industry, HSA presents great opportunities to design highly-optimized, energy-efficient systems to outperform competitors by 10x to 100x."},
+        {"p": "In National Taiwan University (NTU), we have researched on heterogeneous computing for years and have established a team to work on HSA in 2013. In our experience, HSA covers a wide spectrum of hardware and software issues and is very difficult to master even for experienced hardware designers and software developers. We hope this \"HSA Tutorial Day\" event will bring students and engineers up to speed with the following features:"},
+        {"ul": [
+            "7 Tutorial Sessions: Based on open-source tutorial materials created by pioneers and experts for ISCA 2014, our top graduate students will deliver the tutorial sessions after months of preparation. The tutorial will introduce HSA from the scratch and go through the important features of the HSA.",
+            "Research Posters: Research proposals and results will be presented to encourage the exchange of ideas and collaboration on the computer architecture, system software, and applications of HSA. If you like to share, please let us know.",
+            "Industry Time and Panel Discussion: Industry leaders, including AMD, ITRI, Marvell, MediaTek and QNAP (in alphabetic order) are sponsoring this event and some of them will present their roadmaps and technologies on HSA. A group of experts will be on stage to share their thoughts.",
+            "Tutorial Book: Each participant will receive a book which contains the presentation slides and extra information."
+        ]},
+        {"p": "Hopefully, this all-day event can help to jump-start novices who are interested in HSA, to inspire a series of activities to strengthen the links between architecture and system software communities, and to promote the exchange of knowledge and ideas between the academia and industry in Taiwan."},
+        {"p": "The admission is completely FREE, but the number of seats is limited to 90. Please register as soon as possible."}
     ],
     "p2": [
-        "我們在過去一年帶領著學生蒐集研讀 HSA 相關資料的時候，發現 HSA 的門檻極高，對於新進的研究生、工程師，是極大的挑戰，不易入門，要融會貫通更是難上加難。",
-        "因此，我們自發性地發起這個活動，希望能用一天的時間，將國內對於 HSA 有興趣的學界師生、業界朋友們聚集在一起，在一天的免費的活動中，由我們自組的 HSA 研究團隊中的幾位學生對於 HSA 軟硬體的重要概念進行解說，同時有學界研究計畫的攤位展示，以及編撰教學資源手冊的分享。",
-        "我們已獲得包括 MTK、AMD、Marvell、ITRI、QNAP 等業界翹楚的初步首肯與支持，希望能將活動辦得有聲有色。本活動將有不少業界先進前來參與，包括攤位擺設、參與 Panel Discussion 等，希望藉此促進產學交流，共同研討開發 HSA 先進的技術。",
-        "我們聯合了台大資工系上對於 HSA 架構感興趣的教授們與學生們，從兩個月之前就開始規劃本活動，希望能將團隊這半年下來對 HSA 平台的一些經驗與心得和學界業界各方賢進行討論與交流。"
+        {"p": "異質系統架構 (HSA) 是近年來業界重要的新技術，將重新定義「異質多核運算」的架構與介面，讓各領域的研發和教育人員能夠以此開發出下世代的電腦系統與應用。對於台灣的高科技界而言，HSA 讓我們在系統設計上能夠打造出比競爭者更有效率或是更為強大十倍甚至百倍的系統，帶來許多創新和優化的機會。"},
+        {"p": "於台灣大學，我們在異質計算這個領域已深耕多年，並且在2013年開始針對HSA成立研究團隊。我們在過去一年帶領著學生蒐集研讀 HSA 相關資料的時候，發現 HSA 的門檻極高，對於新進的研究生、工程師，是極大的挑戰，不易入門，要融會貫通更是難上加難。由於HSA涵蓋很廣的技術領域，需要硬體架構和系統軟體的基礎，因此我們發起這個 HSA Tutorial Day 的活動，希望能用一天的時間，提供國內學生和工程師更上層樓所需的內容，包括："},
+        {"ul": [
+            "七個導覽教學課程：利用世界一流專家在 ISCA 2014 會議提供的開放課程，由我們團隊頂尖的研究生重頭開始介紹HSA以及針對 HSA 軟硬體的重要概念進行解說。",
+            "研究海報展示：我們鼓勵學生與業界在此交流與HSA相關的研究提案與結果，無論是計算機結構、系統軟體、應用開發，都可以來此展示。歡迎報名。",
+            "業界時間＋專家座談：我們已獲得包括 AMD, ITRI, Marvell, MediaTek 和 QNAP（按字母順序）等業界翹楚的支持，將有業界來介紹 HSA 相關的技術與願景，也會邀請業界專家上台與參與者座談。",
+            "教學資源手冊：以上展演的簡報，將預先印製成書印送給參與者。"
+        ]},
+        {"p": "我們希望藉此活動將國內對於 HSA 有興趣的學界師生、業界朋友們聚集在一起，促進產學交流，共同研討開發 HSA 先進的技術。我們認為，下世代的異質計算系統，需要跨領域的規劃，包括計算機架構師、系統軟體專家、各應用領域的專家等等一起密切合作，才能夠把握到更多的機會。"},
+        {"p": "歡迎大家來參加這一整天完全免費的活動，名額只有90位，請早註冊。"}
     ],
     "sponsors": [{
         "name": "NTU",

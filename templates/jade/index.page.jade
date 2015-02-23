@@ -1,3 +1,12 @@
+mixin intro(data)
+    each d in data
+        if d.p
+            p= d.p
+        if d.ul
+            ul
+                each t in d.ul
+                    li= t
+
 extends layout.jade
 
 block content
@@ -13,13 +22,11 @@ block content
             .place NTU
     section#intro
         h2 HSA 異質運算
-        each p in p1
-            p= p
+        +intro(p1)
     hr
     section#about
         h2 About 活動緣起
-        each p in p2
-            p= p
+        +intro(p2)
     hr
     section#sponsors
         h2 Sponsor 特別感謝
