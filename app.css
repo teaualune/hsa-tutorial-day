@@ -172,19 +172,20 @@ section > p {
 .speaker-list .hex-o {
   margin: 15px auto;
 }
-.speaker-intro h3 {
-  letter-spacing: 4.2px;
-  font-size: 150%;
-  line-height: 1.4em;
-  margin: 0;
+.speaker-intro {
+  text-align: left;
 }
 .speaker-intro p {
-  letter-spacing: 2px;
-  line-height: 1.3em;
+  margin: 0.5em 0;
+}
+.speaker-intro ul {
+  margin: 0.5em 0;
+  padding-left: 20px;
 }
 .speaker-website {
   text-align: center;
   margin: 2px 0;
+  text-shadow: 1px 1px 2px #889999;
 }
 .session-table {
   overflow-x: auto;
@@ -242,6 +243,9 @@ section > p {
   text-align: left;
   text-indent: 2em;
 }
+.session-intro li {
+  text-align: left;
+}
 .show-intro .toggle span {
   -webkit-transform: rotate(180deg) translateY(-0.2em);
   -moz-transform: rotate(180deg) translateY(-0.2em);
@@ -276,7 +280,7 @@ section > p {
 }
 .hex .hex-content {
   position: absolute;
-  overflow: hidden;
+  overflow: auto;
   color: #eeffff;
   zoom: 1;
   filter: alpha(opacity=0);
@@ -338,10 +342,10 @@ section > p {
   transition: opacity 0.2s;
 }
 .hex-img-blurred img {
-  -webkit-filter: blur(8px);
-  -moz-filter: blur(8px);
-  -ms-filter: blur(8px);
-  filter: blur(8px);
+  -webkit-filter: blur(8px) grayscale(0.3);
+  -moz-filter: blur(8px) grayscale(0.3);
+  -ms-filter: blur(8px) grayscale(0.3);
+  filter: blur(8px) grayscale(0.3);
 }
 .hex-s1 {
   width: 275px;
