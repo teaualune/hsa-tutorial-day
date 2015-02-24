@@ -1,3 +1,12 @@
+mixin intro(data)
+    each d in data
+        if d.p
+            p= d.p
+        if d.ul
+            ul
+                each t in d.ul
+                    li= t
+
 doctype html
 html(lang="zh-TW", xmlns="http://www.w3.org/1999/xhtml")
     head
@@ -16,7 +25,7 @@ html(lang="zh-TW", xmlns="http://www.w3.org/1999/xhtml")
         footer.footer: .container
             h3
                 | Contact us:&nbsp;
-                a(href="mailto:hungsh@csie.ntu.edu.tw") hungsh@csie.ntu.edu.tw
+                a(href="mailto:ywcheng@cs.nctu.edu.tw") 鄭雅文
             small
                 | Logo and design by 
                 a(href="https://github.com/teaualune", target="_blank") Lawrence Tseng

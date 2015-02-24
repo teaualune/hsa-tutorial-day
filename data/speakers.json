@@ -18,13 +18,31 @@
         "photoUrl": "http://graph.facebook.com/100002087628086/picture?redirect=1&type=large"
     },
     {
-        "name": "Michael Ruan",
-        "intro": "台大資工所博士生，PASLAB 成員",
+        "name": "阮渥豪 Michael (Wo-Hao) Ruan",
+        "website": {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/michaelr0306"
+        },
+        "intro": [
+            {"ul": [
+                "PhD Student, NTU",
+                "Principal Software Engineer, Broadcom"
+            ]},
+            {"p": "Research Interests:"},
+            {"ul": [
+                "System Performnce Modelling / Profiling / Optimization",
+                "GPGPU / HSA Design / Applications"
+            ]}
+        ],
         "photoUrl": "http://graph.facebook.com/michael.ruan.79/picture?redirect=1&type=large"
     },
     {
-        "name": "JP Shieh",
-        "intro": "台大資工所博士生，PASLAB 成員",
+        "name": "JP (Jeng Peng) Shieh",
+        "intro": [
+            {"p": "Received B.S.E.E. and M.EMBA degrees from the National Cheng Kung University, Taiwan, in 1986 and 2007 respectively. Enrolling phD in Computer Science and Information Engineering of National Taiwan University from 2008."},
+            {"p": "Worked in designing a machine translation system from 1988 to 1991. Co-designed a client-server OLTP middleware for banking system from 1991 to 1996. Founded a software house and developed Internet e-commerce system from 1996 to 2002. Led the R&D team of PROTON Inc., Taiwan, and conducted a series of novel video product from 2003 to 2009."},
+            {"p": "Research interests and areas of publication include embedded and mobile system design, performance optimization, system virtualization, and Cloud computing."}
+        ],
         "photoUrl": "http://graph.facebook.com/our422/picture?redirect=1&type=large"
     },
     {

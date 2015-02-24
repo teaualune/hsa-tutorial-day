@@ -16,7 +16,7 @@
 
     .hex-content {
         position: absolute;
-        overflow: hidden;
+        overflow: auto;
         color: @white;
         .opacity(0);
         .transition(opacity 0.2s);
@@ -90,7 +90,7 @@
 
     &-blurred {
         img {
-            .filter(blur(8px));
+            .filter(blur(8px) grayscale(0.3));
         }
     }
 }

@@ -13,17 +13,17 @@
         "title": "Introduction",
         "speaker": "Medicine Yeh",
         "intro": [
-            "HSA，異質計算，是一個術業有專攻的概念：透過 CPU 以外的處理器加速運算，讓 CPU 不擅長的 Data Parallel 運算放到 GPU 上分成一個個階段，每一階段都可以同時執行的 Pipeline 運算丟到 FPGA 上執行，讓擅長該運算方式的處理器做運算以達到加速或更省電的功用。",
-            "例如，透過 FPGA 加速的百度搜尋引擎可在一半的功耗下達到相同的運算速度；只用 4 張 Nvidia K80 GPU 卡就能比 google brain 一個機房更快速的用 Deep Learning 做出狗或人臉的辨識。",
-            "但此種整合需要軟體上的新語言，需能在易於撰寫且完整支援硬體的情況下更快速的傳遞訊息到各個異質處理器，否則光是傳遞的延遲就會拖累運算的速度，因此才有了 HSA 的誕生。",
-            "本議程將會教導 HSA 的基本觀念和 HSA 的必要性及用途，讓大家了解所謂的異質計算，一窺 HSA 的世界。"
+            {"p": "HSA，異質計算，是一個術業有專攻的概念：透過 CPU 以外的處理器加速運算，讓 CPU 不擅長的 Data Parallel 運算放到 GPU 上分成一個個階段，每一階段都可以同時執行的 Pipeline 運算丟到 FPGA 上執行，讓擅長該運算方式的處理器做運算以達到加速或更省電的功用。"},
+            {"p": "例如，透過 FPGA 加速的百度搜尋引擎可在一半的功耗下達到相同的運算速度；只用 4 張 Nvidia K80 GPU 卡就能比 google brain 一個機房更快速的用 Deep Learning 做出狗或人臉的辨識。"},
+            {"p": "但此種整合需要軟體上的新語言，需能在易於撰寫且完整支援硬體的情況下更快速的傳遞訊息到各個異質處理器，否則光是傳遞的延遲就會拖累運算的速度，因此才有了 HSA 的誕生。"},
+            {"p": "本議程將會教導 HSA 的基本觀念和 HSA 的必要性及用途，讓大家了解所謂的異質計算，一窺 HSA 的世界。"}
         ],
         "time": "09:00 - 09:50"
     }, 
     {
         "title": "HSAIL Virtual Parallel ISA",
         "speaker": "Sean Wu",
-        "intro": "",
+        "//intro": [],
         "time": "09:50 - 10:40"
     }, 
     {
@@ -33,7 +33,18 @@
     {
         "title": "HSA Runtime",
         "speaker": "JP Shieh",
-        "intro": "",
+        "intro": [
+            {"p": "HSA是近年來針對異質運算所提出來的新架構，主要用來將各種運算資源如 CPU、GPU、加速元件整合到一個具備分享式高頻寬記憶體的系統平台之中，來取得更有效的系統功耗及運算性能。HSA 設計的主要目的在於整合市場上現有的加速元件，定義新標準規格並從架構上來結合這些加速元件，並利用跟現有的多核心程式設計方式類似的主流程式設計語言來編程，以取得這些加速元件所帶來的好處。"},
+            {"p": "簡單地說，HSA 主要包括 (1) HSA 系統架構、(2) HSAIL 即編譯過的低階中間碼語言 (HSA Intermediate Language)、(3) HSA Finalizer 這是一種低階簡單的編譯器用來將 HSAIL 代碼編譯成本機機器碼 (native machine code)，以及 (4) HSA Runtime API 執行期間應用程式設計界面 (以下簡稱 HSART)，後者即提供單一標準的 HSART 給各家系統平台廠商用來產生代碼以控制相關的 HSA 組件 (HSA Component)。"},
+            {"p": "本議程主要介紹 HSA 執行期間核心 (Core) 應用程式設計界面，這裡會簡要說明 HSART 在整個 HSA 應用程式設計開發執行的角色、核心程式設計界面 (Core Runtime API) 的功能簡介及圖示的範例，主要內容有："},
+            {"ul": [
+                "Runtime Initialization and Shut Down",
+                "Notifications (Synchronous / Asynchronous)",
+                "Memory Based Signals",
+                "Architected Queues",
+                "Memory Management"
+            ]}
+        ],
         "time": "11:10 - 12:00"
     }, 
     {
@@ -43,13 +54,17 @@
     {
         "title": "HSA Memory Model",
         "speaker": "Po-Han Wang",
-        "intro": "",
+        "//intro": [],
         "time": "13:00 - 13:50"
     }, 
     {
         "title": "HSA Queuing Model",
         "speaker": "Michael Ruan",
-        "intro": "",
+        "intro": [
+            {"p": "HSA Queuing Model 扮演著使用者與 HSA System 之間的溝通橋梁；不論是 Programmer 發送 cmds 到所有 HSA agents (CPUs, GPUs & other accelarators)，亦或是 HSA agents 彼此之間需要相互發送 cmds，均得透過 User Mode Queue 來完成。"},
+            {"p": "本議程著重介紹 HSA Queuing Model 的設計理念，配合精簡的虛擬碼說明其使用方法與設計概念上的長處 (V.S. OpenCL convention)；同時透過 AQL (Architected Queueing Language) packets 的解說，幫助聽眾理解 AQL 重要欄位的意義與使用機制；User Mode Queue 配合 AQL packets 也就呈現了基礎的 HSA programming model & interfaces。"},
+            {"p": "本議程會需要部分 OpenCL / CUDA 的基礎知識來幫助理解 HSA Queuing Model 的設計理念與長處。"}
+        ],
         "time": "13:50 - 14:40"
     }, 
     {
@@ -59,25 +74,23 @@
     {
         "title": "HSA Compilation Technology",
         "speaker": "Clay Chang",
-        "intro": "",
+        "//intro": [],
         "time": "15:10 - 16:00"
     }, 
     {
         "title": "HSA Application Programing Techniques",
         "speaker": "Chih-Cheng Kao",
-        "intro": "",
+        "//intro": [],
         "time": "16:00 - 16:50"
     }, 
     {
         "title": "業界時間",
         "speaker": "AMD",
-        "intro": "",
         "time": "16:50 - 17:30"
     }, 
     {
         "title": "座談",
         "speaker": "徐慰中、洪士灝",
-        "intro": "",
         "time": "17:30 - 18:00"
     }]
 }

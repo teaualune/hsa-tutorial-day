@@ -24,18 +24,13 @@ block content
                                     a.toggle(href="javascript:void(0);", onclick="t(" + index + ");")
                                         span &dtrif;
                                     .session-intro
-                                        if 'string' === typeof s.intro
-                                            p= s.intro
-                                        else
-                                            each i in s.intro
-                                                p= i
+                                        +intro(s.intro)
                             td= s.speaker
-                        //- if s.intro
-                            tr.session-intro(hidden): td(colspan="3")
                     else
                         tr.one-column
                             td= s.time
-                            td(colspan="2")= s.title
+                            td= s.title
+                            td
 
 block bottom
     script(type="text/javascript").
