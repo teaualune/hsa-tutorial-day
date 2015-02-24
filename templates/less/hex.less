@@ -32,8 +32,8 @@
 
     .hex-content {
         top: @hex-size / 2;
-        left: @hex-size / 10;
-        right: @hex-size / 10;
+        left: 0;
+        right: 0;
         bottom: @hex-size / 2;
     }
 };
@@ -90,7 +90,9 @@
 
     &-blurred {
         img {
-            .filter(blur(8px) grayscale(0.3));
+            @media (min-width: 48em) {
+                .filter(blur(8px) grayscale(0.3));
+            }
         }
     }
 }
@@ -108,6 +110,7 @@
 
 .hex-content-sm {
     display: none;
+    margin-bottom: 2em;
 }
 
 @media (max-width: 48em) {

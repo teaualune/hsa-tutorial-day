@@ -206,7 +206,10 @@ section {
 .speaker-website {
     text-align: center;
     margin: 2px 0;
-    text-shadow: 1px 1px 2px @black + #888;
+
+    .hex-content & {
+        text-shadow: 1px 1px 2px @black + #888;
+    }
 }
 
 .session-table {

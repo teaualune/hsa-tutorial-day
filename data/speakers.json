@@ -5,8 +5,24 @@
             "name": "Blog",
             "url": "http://hungsh-ntucsie.blogspot.tw"
         },
-        "intro": "台大資工系副教授，PASLAB 的指導教授，台大資工 HSA 讀書會的發起人之一",
+        "intro": [
+            {"p": "台大資工系副教授，台大資工 HSA 讀書會的發起人之一。"},
+            {"p": "主要的研究著重於計算機架構、平行處理、異質運算、效能最佳化、資訊安全、嵌入式系統設計等。近年的研究領域也包括雲端運算技術、Big Data 等。"},
+            {"p": "於台大資工所成立 Performance, Applications and Security Lab (PASLAB)。"}
+        ],
         "photoUrl": "http://graph.facebook.com/shihhaohung/picture?redirect=1&type=large"
+    },
+    {
+        "name": "徐慰中 教授",
+        "website": {
+            "name": "Website",
+            "url": "http://www.csie.ntu.edu.tw/~hsuwc/"
+        },
+        "intro": [
+            {"p": "台大資工系教授，台大資工 HSA 讀書會的發起人之一。"},
+            {"p": "研究領域主要為虛擬化技術、編譯器最佳化、動態二進制優化、計算機架構等。"}
+        ],
+        "photoUrl": "http://www.csie.ntu.edu.tw/~hsuwc/uploads/3/8/0/4/38044211/header_images/1408605868.jpg"
     },
     {
         "name": "Medicine Yeh",
@@ -30,7 +46,7 @@
             ]},
             {"p": "Research Interests:"},
             {"ul": [
-                "System Performnce Modelling / Profiling / Optimization",
+                "System Performance Modelling / Profiling / Optimization",
                 "GPGPU / HSA Design / Applications"
             ]}
         ],
