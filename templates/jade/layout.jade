@@ -10,9 +10,21 @@ mixin intro(data)
 doctype html
 html(lang="zh-TW", xmlns="http://www.w3.org/1999/xhtml")
     head
-        title NTU HSA Tutorial Day
+        - var title = 'NTU HSA Tutorial Day';
+        - var description = 'Heterogeneous System Architecture (HSA) Tutorial held by National Taiwan University (NTU)';
+        - var image = 'http://teaualune.github.io/hsa-tutorial-day/logo-color.png';
+        title= title
         meta(http-equiv="Content-Type", content="text/html;charset=utf-8")
         meta(name="viewport", content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no")
+        meta(name="description", content=description)
+        meta(name="keywords", content="Heterogeneous System Architecture, HSA, National Taiwan University, NTU, Parallel Computing, GPGPU")
+        meta(name="og:title", content=title)
+        meta(name="og:image", content=image)
+        meta(name="og:description", content=description)
+        meta(name="twitter:card", content="summary")
+        meta(name="twitter:title", content=title)
+        meta(name="twitter:description", content=description)
+        meta(name="twitter:image", content=image)
         link(rel="stylesheet", type="text/css", href="app.css")
         link(rel="icon", type="image/png", href="/hsa-tutorial-day/favicon-32x32.png", sizes="32x32")
         link(rel="shortcut icon", type="image/x-icon", href="/hsa-tutorial-day/favicon.ico")
