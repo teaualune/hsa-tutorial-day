@@ -65,5 +65,19 @@
         "name": "Clay Chang",
         "intro": "台大資工所博士生，PASLAB 成員",
         "photoUrl": "http://graph.facebook.com/clay.chang/picture?redirect=1&type=large"
+    },
+    {
+        "name": "王柏翰 Howard (Po-Han) Wang",
+        "intro": [
+            {"ul": [
+                "PhD Student, ECLab, NTU CSIE"
+            ]},
+            {"p": "Research Interests:"},
+            {"ul": [
+                "Computer Architecture / Low-power System Design",
+                "Memory Hierarchy of GPU & HSA"
+            ]}
+        ],
+        "photoUrl": "http://graph.facebook.com/howard.wangph/picture?redirect=1&type=large"
     }]
 }

@@ -54,7 +54,10 @@
     {
         "title": "HSA Memory Model",
         "speaker": "Po-Han Wang",
-        "//intro": [],
+        "intro": [
+            {"p": "HSA Memory Model 定義了在 HSA 架構裡記憶體系統將依循何種規則來執行來自多個 work-items 的記憶體存取 (memory operations)，讓程式設計者能更容易地推論平行程式的執行結果以提高撰寫效率，並讓編譯器 (compiler) 其系統設計者 (system designer) 有足夠的空間對應用程式進行優化 (optimization)。"},
+            {"p": "本議程將深入淺出地介紹 Memory Model 的基礎概念，藉此了解 HSA 於現有的 Memory Model 上做了何種延伸，以及這些延伸的必要性；亦將探討 OpenCL 與 HSA 在 Memory Model 上的對應關係，以及 HSA 架構所帶來的 Cache Coherence 相關議題。"}
+        ],
         "time": "13:00 - 13:50"
     }, 
     {
