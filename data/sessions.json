@@ -78,7 +78,7 @@
         "title": "HSA Compilation Technology",
         "speaker": "Clay Chang",
         "intro": [
-            {"p": "Compiler 是一個相當重要的系統軟體，其目的是將高階語言轉換成低階語言格式，以利於底層平台執行。而在異質系統當中，為了滿足 OpenCL 中 Portability 的特性，On-line 或 Two-stage Compilation 技術便因應而生。傳統上，撰寫 OpenCL 應用程式大致可以分成兩個部分：Host Program 及 Device (Kernel) Program。Host Program 主要用於 Platform API 及 Runtime API 的調用、呼叫 Device Compiler 以編譯 Kernel Program、設定適當的執行環境以及下指令給 Compute Device 來執行程式。Kernel Program 則包含了平行演算法的撰寫。這種開發流程有幾個問題：一、程式過於冗長且容易出錯。二、執行流程 (Program Flow) 並不容易被了解。"},
+            {"p": "Compiler 是一個相當重要的系統軟體，其目的是將高階語言轉換成低階語言格式，以利於底層平台執行。而在異質系統當中，以 OpenCL 為例，為滿足其 Portability 的特性，On-line 或 Two-stage Compilation 技術便因應而生。傳統上，撰寫 OpenCL 應用程式大致可以分成兩個部分：Host Program 及 Device (Kernel) Program。Host Program 主要用於 Platform API 及 Runtime API 的調用、呼叫 Device Compiler 以編譯 Kernel Program、設定適當的執行環境以及下指令給 Compute Device 來執行程式。Kernel Program 則包含了平行演算法的撰寫。這種開發流程有幾個問題：一、程式過於冗長且容易出錯。二、執行流程 (Program Flow) 並不容易被了解。"},
             {"p": "為了解決上述問題並改善生產力，有許多更高階的 Programming Model 被提出來討論，當中包含 C++AMP 及 Sumatra Project (Java)。我們將在此議程中討論這兩種語言針對 Heterogeneous System Architecture 所提出來的改進及未來可能的發展方向。最後，我們將討論 POCL：一個 Open Source 的 OpenCL 實作。希望藉由此案例討論，讓聽眾了解 Compiler 如何將程式碼轉換成高效能的平行程式。"}
         ],
         "time": "15:10 - 16:00"
