@@ -63,7 +63,15 @@
     },
     {
         "name": "Clay Chang",
-        "intro": "台大資工所博士生，PASLAB 成員",
+        "intro": [
+            {"p": "PhD Student, NTU GINM"},
+            {"p": "Research Interests:"},
+            {"ul": [
+                "Heterogeneous Programming",
+                "GPU Architecture",
+                "Compiler"
+            ]}
+        ],
         "photoUrl": "/hsa-tutorial-day/10960104_10153701464868146_4397379636662925454_o.jpg"
     },
     {
