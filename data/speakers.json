@@ -87,5 +87,13 @@
             ]}
         ],
         "photoUrl": "http://graph.facebook.com/howard.wangph/picture?redirect=1&type=large"
+    },
+    {
+        "name": "Che Yang, Wu (Sean)",
+        "intro": [
+            {"p": "Master Student, COVART Lab, NTU CSIE"},
+            {"p": "Compiler Optimization, Software Security"}
+        ],
+        "photoUrl": "http://i.imgur.com/uJR3iOw.jpg"
     }]
 }
