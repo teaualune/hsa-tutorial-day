@@ -81,8 +81,8 @@
         "title": "HSA Compilation Technology",
         "speaker": "Clay Chang",
         "intro": [
-            {"p": "傳統上，撰寫 HSA 應用程式大致可以分成兩個部分：Host Program 及 Device (Kernel) Program。Host Program 主要用於 Platform API 及 Runtime API 的調用、呼叫 Device Compiler 以編譯 Kernel Program、設定適當的執行環境以及下指令給 Compute Device 來執行程式。Kernel Program 則包含了平行演算法的撰寫。這種開發流程有幾個問題，例如：冗長、重複、容易出錯的程式碼，並且因為需要撰寫不同的編譯單元 (Compilation Unit)，其執行流程 (Program Flow) 並不容易被了解等等。"},
-            {"p": "為了解決上述問題並改善生產力，有許多更高階的 Programming Model 被提出來討論，當中包含 C++AMP 及 Sumatra Project (Java)。於此議程中，我們將針對討論兩種語言針對 Heterogeneous System Architecture 所提出來的改進及未來可能的發展方向。最後，我們將討論 POCL：一個 Open Source 的 OpenCL 實作。希望藉由此案例討論，讓聽眾窺視 Compiler 如何將程式碼轉換成高效能的 HSA 平行程式。"}
+            {"p": "傳統上，撰寫 HSA 應用程式大致可以分成兩個部分：Host Program 及 Device (Kernel) Program。Host Program 主要用於 Platform API 及 Runtime API 的調用、呼叫 Device Compiler 以編譯 Kernel Program、設定適當的執行環境以及下指令給 Compute Device 來執行程式。Kernel Program 則包含了平行演算法的撰寫。這種開發流程有一些問題，例如：冗長、重複、容易出錯的程式碼，並且因為需要撰寫不同的編譯單元 (Compilation Unit)，其執行流程 (Program Flow) 不容易被了解等等。"},
+            {"p": "為了解決上述問題並提高生產力，有許多更高階的 Programming Model 被提出來討論，當中包含 C++AMP 及 Sumatra Project (Java)。於此議程中，我們將針對討論兩種語言針對 Heterogeneous System Architecture 所提出來的改進及未來可能的發展方向。最後，我們將討論 POCL：一個 Open Source 的 OpenCL 實作。希望藉由此案例，討論 Compiler 如何進行 Optimization 並將程式碼轉換成高效能的 HSA 平行程式。"}
         ],
         "time": "15:10 - 16:00"
     }, 
