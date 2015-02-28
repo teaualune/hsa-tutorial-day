@@ -30,7 +30,10 @@
             "name": "MedicineYeh",
             "url": "https://github.com/MedicineYeh"
         },
-        "intro": "台大資工所博士生，PASLAB 成員",
+        "intro": [
+            {"p": "台大資工所博士生，PASLAB 成員，同時為這次活動Introduction的講者。"},
+            {"p": "研究領域主要為虛擬化技術、平行程式、效能評估及最佳化、異質系統等。"}
+        ],
         "photoUrl": "http://graph.facebook.com/100002087628086/picture?redirect=1&type=large"
     },
     {
