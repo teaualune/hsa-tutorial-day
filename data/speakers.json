@@ -98,5 +98,14 @@
             {"p": "Compiler Optimization, Software Security"}
         ],
         "photoUrl": "http://i.imgur.com/uJR3iOw.jpg"
+    },
+    {
+        "name": "高至辰 Chih-Chen Kao",
+        "intro": [
+            {"p": "Chih-Chen Kao was born in Taipei, Taiwan. He received his M.S. degree in computer science from the National Chiao-Tung University, Hsinchu, Taiwan, in 2014. Currently, he is a Ph.D student of the Institute of the Networking and Multimedia, which is the graduate institute in the College of Electrical Engineering and Computer Science at National Taiwan University, Taipei, Taiwan."},
+            {"p": "From 2011 to 2012, he was invited to participate the OPTIMI (Online Predictive Tools for Intervention in Mental Illness) project which is a research project funded by the European Union’s 7th Framework Programme Personal Health Systems, at ETH Zurich, Switzerland."},
+            {"p": "His current research interests include heterogeneous computing, runtime system design and compiler optimization techniques."}
+        ],
+        "photoUrl": "/hsa-tutorial-day/2cd19c6d-4851-4ec2-9cc9-b7b51d8a3331.jpg"
     }]
 }
