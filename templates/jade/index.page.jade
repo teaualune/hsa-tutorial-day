@@ -31,8 +31,12 @@ block content
         .sponsors.pure-g
             each sponsor in sponsors
                 .sponsor.pure-u-1.pure-u-sm-1-2.pure-u-md-1-3
-                    .img-block: img(src=sponsor.logo, title=sponsor.full, alt=sponsor.name)
-                    h4: a(href=sponsor.url, target="_blank")= sponsor.full
+                    if sponsor.logo
+                        .img-block: img(src=sponsor.logo, title=sponsor.full, alt=sponsor.name)
+                    if sponsor.url
+                        h4: a(href=sponsor.url, target="_blank")= sponsor.full
+                    else
+                        p= sponsor.full
 
 block bottom
     section#map.map-info
