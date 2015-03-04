@@ -53,6 +53,9 @@ section,
 footer {
   padding: 20px 0;
 }
+section h4 {
+  text-align: center;
+}
 section > p {
   text-indent: 2em;
 }
