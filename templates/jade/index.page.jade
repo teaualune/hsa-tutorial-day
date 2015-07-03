@@ -1,34 +1,25 @@
 extends layout.jade
 
 block content
-    section.youtube
-        h2 HSA Tutorial Day 活動直播
-        iframe(src="https://www.youtube.com/embed/SQZ0zXti_wI", frameborder="0", allowfullscreen)
     section.pure-g.logos
-        .pure-u-1.pure-u-sm-1-2
-            .img-block: img(src="logo-color.png", alt="NTU HSA Tutorial Day")
-        .pure-u-1.pure-u-sm-1-2
-            .img-block: img(src="logo-time.png", alt="Time")
+        //.pure-u-1.pure-u-sm-1-2
+            //.img-block: img(src="logo-color.png", alt="NTU HSA Tutorial Day")
+        //.pure-u-1.pure-u-sm-1-2
+            //.img-block: img(src="logo-time.png", alt="Time")
         //- .pure-u-1-2: .event-date
-            .year 2015
-            span.month March
-            span.date 06
-            .place NTU
+            //.year 2015
+            //span.month March
+            //span.date 06
+            //.place NTU
     section#intro
-        h2 歡迎參加 HSA Tutorial Day 活動！
-        h4 徐慰中、洪士灝敬邀
-        h4 國立台灣大學資訊工程學系  教育部資通訊系統軟體跨校資源中心  臺大-聯發科技產學大聯盟
+        h2 招募學員中!
+        h4 7/27-28 台北場 - 台灣大學資訊工程學系
+        h4 7/30-31 台南場 - 成功大學資訊工程學系
+        hr
+        h2 軟體定義網路 跨領域工作坊+黑客松
+        h4 Software Defined Network (SDN) Workshop+Hackathon
+        h4 主辦單位: 教育部資通訊系統軟體資源中心  協辦單位: 中研院資創中心、經濟部通訊產業發展推動小組
         +intro(p2)
-    hr
-    section#about
-        h2 Welcome to HSA Tutorial Day!
-        h4
-            | Wei-Chung Hsu and Shih-Hao Hung
-            br
-            | Department of Computer Science and Information Engineering
-            br
-            | National Taiwan University
-        +intro(p1)
     hr
     section#sponsors
         h2 Sponsors 特別感謝
@@ -45,12 +36,18 @@ block content
                     else
                         p= sponsor.full_2
 
-block bottom
-    section#map.map-info
-        .container
-            h2 &dash;&nbsp;活動地點&nbsp;&dash;
-            p
-                | 國立臺灣大學 National Taiwan University
-                br
-                | 10617 臺北市羅斯福路四段一號 博理館2樓201
-        iframe(src=mapLink)
+//block bottom
+//    section#map.map-info
+//        .container
+//            h2 &dash;&nbsp;活動地點&nbsp;&dash;
+//            p
+//                | 7/27-28 台北場 - 台灣大學資訊工程學系
+//                br
+//                | 10617 臺北市羅斯福路四段一號 德田館
+//        iframe(src=mapLink)
+//            hr
+//            p
+//                | 7/30-31 台南場 - 成功大學資訊工程學系
+//                br
+//                | 70101 台南市東區大學路一號 資訊系館
+//        iframe(src=mapLink2)

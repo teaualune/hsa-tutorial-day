@@ -8,6 +8,9 @@
     "templates/jade/sessions.page.jade": {
         "data": "data/sessions.json"
     },
+    "templates/jade/sessions_2.page.jade": {
+        "data": "data/sessions_2.json"
+    },
     "templates/jade/register.page.jade": {
         "data": "data/register.json"
     }

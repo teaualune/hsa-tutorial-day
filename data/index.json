@@ -1,71 +1,23 @@
 {
-	"p1": [
-        {"p": "Heterogeneous System Architecture (HSA) is an emerging standard for heterogeneous multicore computing systems and has become an important topic for research, development, and education of the next-generation computer systems and applications. For Taiwan's high-tech industry, HSA presents great opportunities to design highly-optimized, energy-efficient systems to outperform competitors by 10x to 100x."},
-        {"p": "In National Taiwan University (NTU), we have researched on heterogeneous computing for years and have established a team to work on HSA in 2013. In our experience, HSA covers a wide spectrum of hardware and software issues and is very difficult to master even for experienced hardware designers and software developers. We hope this \"HSA Tutorial Day\" event will bring students and engineers up to speed with the following features:"},
-        {"ul": [
-            "7 Tutorial Sessions: Based on open-source tutorial materials created by pioneers and experts for ISCA 2014, our top graduate students will deliver the tutorial sessions after months of preparation. The tutorial will introduce HSA from the scratch and go through the important features of the HSA.",
-            "Research Posters: Research proposals and results will be presented to encourage the exchange of ideas and collaboration on the computer architecture, system software, and applications of HSA. If you like to share, please let us know.",
-            "Industry Time and Panel Discussion: Industry leaders, including AMD, ITRI, Marvell, MediaTek and QNAP (in alphabetic order) are sponsoring this event and some of them will present their roadmaps and technologies on HSA. A group of experts will be on stage to share their thoughts.",
-            "Tutorial Book: Each participant will receive a book which contains the presentation slides and extra information."
-        ]},
-        {"p": "Hopefully, this all-day event can help to jump-start novices who are interested in HSA, to inspire a series of activities to strengthen the links between architecture and system software communities, and to promote the exchange of knowledge and ideas between the academia and industry in Taiwan."},
-        {"p": "The admission is completely FREE, but the number of seats is limited to 90. Please register as soon as possible."}
-    ],
+    "p1": [],
     "p2": [
-        {"p": "異質系統架構 (HSA) 是近年來業界重要的新技術，將重新定義「異質多核運算」的架構與介面，讓各領域的研發和教育人員能夠以此開發出下世代的電腦系統與應用。對於台灣的高科技界而言，HSA 讓我們在系統設計上能夠打造出比競爭者更有效率或是更為強大十倍甚至百倍的系統，帶來許多創新和優化的機會。"},
-        {"p": "於台灣大學，我們在異質計算這個領域已深耕多年，並且在2013年開始針對HSA成立研究團隊。我們在過去一年帶領著學生蒐集研讀 HSA 相關資料的時候，發現 HSA 的門檻極高，對於新進的研究生、工程師，是極大的挑戰，不易入門，要融會貫通更是難上加難。由於HSA涵蓋很廣的技術領域，需要硬體架構和系統軟體的基礎，因此我們發起這個 HSA Tutorial Day 的活動，希望能用一天的時間，提供國內學生和工程師更上層樓所需的內容，包括："},
-        {"ul": [
-            "七個導覽教學課程：利用世界一流專家在 ISCA 2014 會議提供的開放課程，由我們團隊頂尖的研究生重頭開始介紹HSA以及針對 HSA 軟硬體的重要概念進行解說。",
-            "研究海報展示：我們鼓勵學生與業界在此交流與HSA相關的研究提案與結果，無論是計算機結構、系統軟體、應用開發，都可以來此展示。歡迎報名。",
-            "業界時間＋專家座談：我們已獲得包括 AMD, ITRI, Marvell, MediaTek 和 QNAP（按字母順序）等業界翹楚的支持，將有業界來介紹 HSA 相關的技術與願景，也會邀請業界專家上台與參與者座談。",
-            "教學資源手冊：以上展演的簡報，將預先印製成書印送給參與者。"
-        ]},
-        {"p": "我們希望藉此活動將國內對於 HSA 有興趣的學界師生、業界朋友們聚集在一起，促進產學交流，共同研討開發 HSA 先進的技術。我們認為，下世代的異質計算系統，需要跨領域的規劃，包括計算機架構師、系統軟體專家、各應用領域的專家等等一起密切合作，才能夠把握到更多的機會。"},
-        {"p": "歡迎大家來參加這一整天完全免費的活動，名額只有90位，請早註冊。"}
+        {"p": "軟體定義網路（SDN）技術商用化時代已來臨。網路通訊需求量爆發性成長，SDN技術可望在負載均衡、網路安全管理、訊務工程管理等網通發展關鍵 議題上發展出革命性解決方案，更在食衣住行育樂等生活及商業應用上創造出嶄新、劃時代之應用服務。可程式網路的作法，大幅地降低了網路維護、管理與更新的困難度，使得網管人員能夠以高階的方式取代傳統低階的方式調整網路的決策。近來，許多學術及商業機構已經或投入研發或更新系統為SDN架構，顯示它降低維護與營運成本的潛力。"},
+        {"p": "為了培育SDN技術人才，本次教育部資通訊系統軟體資源中心與中研院資創中心、經濟部通訊產業發展推動小組共同邀集國內深耕SDN技術的專家學 者，在台北與台南分別提供為期兩天的跨領域工作坊課程以及黑客松的實作活動，以此帶領嚮往進入SDN領域的教授、學生、業界人士，在涵蓋SDN技 術領域的9堂課之後，進行應用發想、實作、解題、交流，希望能讓學員在理論與實務上都有所收獲。"},
+        {"p": "我們預計在每個場次招收90為學員，費用全免，但希望學員能珍惜教學資源，全程參加活動。本活動即日起報名，優先提供給教授、學生、贊助企業人 士，在7/10後提供給其他業界人士。"}
     ],
     "sponsors": [{
-        "name": "NTU",
-        "full": "國立台灣大學",
-        "full_2": "臺大-聯發科技產學大聯盟",
-        "url": "http://www.ntu.edu.tw",
-        "url_2": "http://www.ntu.edu.tw/oldchinese/spotlight/2014/141222_1.htm",
-        "logo": "http://www.ntu.edu.tw/images/logo.png"
+        "name": "citi",
+        "full": "中研院資訊科技創新研究中心",
+        "url": "http://www.citi.sinica.edu.tw/",
+        "logo": "http://www.citi.sinica.edu.tw/images/citi-site-title.png"
     },
     {
-        "name": "AMD",
-        "full": "AMD",
-        "url": "http://www.amd.com",
-        "logo": "/hsa-tutorial-day/53120A_AMD_ES.png"
-    },
-    {
-        "name": "ITRI",
-        "full": "工業技術研究院",
-        "url": "https://www.itri.org.tw",
-        "logo": "https://moeapromotioneufp7.files.wordpress.com/2009/02/itri_cel_a.gif"
-    },
-    {
-        "name": "QNAP",
-        "full": "威聯通科技股份有限公司",
-        "url": "http://www.qnap.com",
-        "logo": "http://upload.wikimedia.org/wikipedia/commons/f/f0/Qnap_Logo_2004.svg"
-    },
-    {
-        "name": "MTK",
-        "full": "聯發科技",
-        "url": "http://www.mediatek.com",
-        "logo": "http://upload.wikimedia.org/wikipedia/commons/d/df/Mediatek_2014_logo.png"
-    },
-    {
-        "name": "Marvell",
-        "full": "邁威爾科技有限公司",
-        "url": "http://www.marvell.com",
-        "logo": "http://semiaccurate.com/assets/uploads/2011/09/Marvell-logo.png"
-    },
-    {
-        "name": "ITSA",
-        "full": "教育部資通訊軟體人才培育計畫",
-        "url": "http://www.itsa.org.tw",
-        "logo": "/hsa-tutorial-day/itsa.png"
-    }],
-    "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.4354488067047!2d121.54228615000001!3d25.01929234999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aa267599a865%3A0x3f33877e06900c37!2zMTA25Y-w5YyX5biC5aSn5a6J5Y2A6Ie654Gj5aSn5a245Y2a55CG6aSo!5e0!3m2!1szh-TW!2stw!4v1423835121185"
+        "name": "communication_org",
+        "full": "經濟部通訊產業發展推動小組",
+        "url": "http://www.communications.org.tw/",
+        "logo": "http://www.communications.org.tw/images/logo_home.png"
+    }
+    ],
+    "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.4315333571744!2d121.54166874999999!3d25.019425299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aa266982a61d%3A0x73054453d07310fe!2zMTA25Y-w5YyX5biC5aSn5a6J5Y2A6Ie654Gj5aSn5a246LOH6KiK5bel56iL6aSoICjlvrfnlLDppKgp!5e0!3m2!1szh-TW!2stw!4v1435907259286",
+    "mapLink2": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7345.426147075085!2d120.2190858!3d22.9975762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e76ed290820d3%3A0xe0ee028be207a19e!2z5oiQ5Yqf5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1435907278435"
 }

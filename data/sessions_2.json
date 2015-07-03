@@ -21,8 +21,8 @@
         "time": "上午"
     }, 
     {
-        "title": "軟體定義網路中之虛擬網路設計",
-        "speaker": "陳俊良 (台科大電機系教授)",
+        "title": "軟體定義網路控制器(OpenDaylight)",
+        "speaker": "何哲勳 (工研院資通所 網路通訊服務技術部 技術副理)",
         "intro": [
             {"p": ""}
         ],
@@ -33,8 +33,8 @@
         "time": "中午"
     }, 
     {
-        "title": "軟體定義網路使用實例分析",
-        "speaker": "許名宏 (工研院資通所 網路通訊服務技術部  工程師)",
+        "title": "軟體定義網路與網路功能虛擬化(NFV)技術: ",
+        "speaker": "林柏青 (中正大學資工系教授)",
         "intro": [
             {"p": ""}
         ],
@@ -61,16 +61,16 @@
         "time": ""
     }, 
     {
-        "title": "軟體定義網路控制器(OpenDaylight)",
-        "speaker": "何哲勳 (工研院資通所 網路通訊服務技術部 技術副理)",
+        "title": "軟體定義網路中之虛擬網路設計",
+        "speaker": "陳俊良 (台科大電機系教授)",
         "intro": [
             {"p": ""}
         ],
         "time": "上午"
     }, 
     {
-        "title": "軟體定義網路與網路功能虛擬化(NFV)技術: ",
-        "speaker": "林柏青 (中正大學資工系教授)",
+        "title": "軟體定義網路使用實例分析",
+        "speaker": "許名宏 (工研院資通所 網路通訊服務技術部  工程師)",
         "intro": [
             {"p": ""}
         ],
@@ -93,5 +93,5 @@
         "speaker": " ",
         "time": "下午"
     }],
-    "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.4315333571744!2d121.54166874999999!3d25.019425299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aa266982a61d%3A0x73054453d07310fe!2zMTA25Y-w5YyX5biC5aSn5a6J5Y2A6Ie654Gj5aSn5a246LOH6KiK5bel56iL6aSoICjlvrfnlLDppKgp!5e0!3m2!1szh-TW!2stw!4v1435907259286"
+    "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7345.426147075085!2d120.2190858!3d22.9975762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e76ed290820d3%3A0xe0ee028be207a19e!2z5oiQ5Yqf5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1435907278435"
 }
