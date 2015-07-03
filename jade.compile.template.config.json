@@ -2,9 +2,6 @@
     "templates/jade/index.page.jade": {
         "data": "data/index.json"
     },
-    "templates/jade/speakers.page.jade": {
-        "data": "data/speakers.json"
-    },
     "templates/jade/sessions.page.jade": {
         "data": "data/sessions.json"
     },
