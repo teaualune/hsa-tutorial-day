@@ -16,6 +16,18 @@
         "full": "經濟部通訊產業發展推動小組",
         "url": "http://www.communications.org.tw/",
         "logo": "http://www.communications.org.tw/images/logo_home.png"
+    },
+    {
+        "name": "ccu_slrc",
+        "full": "國立中正大學智慧生活產學技術聯盟",
+        "url": "http://slt.cs.ccu.edu.tw/",
+        "logo": "http://pas.csie.ntu.edu.tw/SDN2015Workshop/ccu_slrc.jpg"
+    },
+    {
+        "name": "NTU",
+        "full": "國立台灣大學",
+        "url": "http://www.ntu.edu.tw",
+        "logo": "http://www.ntu.edu.tw/images/logo.png"
     }
     ],
     "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.4315333571744!2d121.54166874999999!3d25.019425299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aa266982a61d%3A0x73054453d07310fe!2zMTA25Y-w5YyX5biC5aSn5a6J5Y2A6Ie654Gj5aSn5a246LOH6KiK5bel56iL6aSoICjlvrfnlLDppKgp!5e0!3m2!1szh-TW!2stw!4v1435907259286",
