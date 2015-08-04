@@ -1,97 +1,110 @@
 {
     "sessions": [ 
     {
-        "title": "7/27",
-        "time": ""
+        "title": "7/30 報到",
+        "time": "08:50 - 09:00"
     }, 
+    {
+        "title": "開幕式",
+        "speaker": "",
+        "time": "09:00 - 09:10"
+    },
     {
         "title": "軟體定義網路簡介與發展趨勢",
         "speaker": "楊明曉 (工研院資通所 光通訊網路技術部 工程師)",
-        "intro": [
-            {"p": ""}
-        ],
-        "time": "上午"
+        "file": "講員-楊明曉SDN Intro_2015_0730.pdf",
+        "time": "09:10 - 10:00"
     }, 
+    {
+        "title": "茶敘",
+        "speaker": "",
+        "time": "10:00 - 10:30"
+    },
     {
         "title": "軟體定義網路控制器(RYU): ",
         "speaker": "邱簡謙 (資策會 組長)",
-        "intro": [
-            {"p": ""}
-        ],
-        "time": "上午"
+        "file": "講員_邱簡謙_軟體定義網路控制器_RYU_20150727_Public.pdf",
+        "time": "10:30 - 11:20"
     }, 
     {
         "title": "軟體定義網路控制器(OpenDaylight)",
-        "speaker": "何哲勳 (工研院資通所 網路通訊服務技術部 技術副理)",
-        "intro": [
-            {"p": ""}
-        ],
-        "time": "上午"
+        "speaker": "王昱傑 (工研院資通所 網路通訊服務技術部 工程師)",
+        "file": "講員-王昱傑_SDN_workshop+Hackathon_ODL_intro.pdf",
+        "time": "11:20 - 12:10"
     }, 
     {
-        "title": "休息時間",
-        "time": "中午"
+        "title": "午餐",
+        "time": "12:10 - 13:30"
     }, 
     {
         "title": "軟體定義網路與網路功能虛擬化(NFV)技術: ",
         "speaker": "林柏青 (中正大學資工系教授)",
-        "intro": [
-            {"p": ""}
-        ],
-        "time": "下午"
+        "time": "13:30 - 14:20"
     }, 
     {
         "title": "軟體定義網路於雲端運算架構影響與革新",
         "speaker": "黃仁竑 (中正大學工學院院長)",
-        "intro": [
-            {"p": ""}
-        ],
-        "time": "下午"
+        "file": "講員_黃仁弘_SDN_DataCenter.pdf", 
+        "time": "14:20 - 15:10"
     }, 
+    {
+        "title": "茶敘",
+        "speaker": "",
+        "time": "15:10 - 15:40"
+    },
     {
         "title": "軟體定義網路於企業網路之應用",
         "speaker": "林志哲博士 (思銳科技 執行長)",
-        "intro": [
-            {"p": ""}
-        ],
-        "time": "下午"
+        "file": "講員_林志哲_Estinet_SDN_for_Enterprise_Introduction.07162015.short.pdf",
+        "time": "15:40 - 16:30"
     }, 
     {
-        "title": "7/28",
-        "time": ""
+        "title": "賦歸",
+        "speaker": "",
+        "time": "16:30 - "
+    },
+    {
+        "title": "7/31 報到",
+        "time": "09:00 - 09:10"
     }, 
     {
         "title": "軟體定義網路中之虛擬網路設計",
-        "speaker": "陳俊良 (台科大電機系教授)",
-        "intro": [
-            {"p": ""}
-        ],
-        "time": "上午"
+        "speaker": "楊竹星 (成功大學電機工程系教授)",
+        "time": "09:10 - 10:00"
     }, 
+    {
+        "title": "茶敘",
+        "speaker": "",
+        "time": "10:00 - 10:30"
+    },
     {
         "title": "軟體定義網路使用實例分析",
         "speaker": "許名宏 (工研院資通所 網路通訊服務技術部  工程師)",
-        "intro": [
-            {"p": ""}
-        ],
-        "time": "上午"
+        "file": "講員_許名宏_SDN_Controller_and_Applications_201507_NTU_NCKU.pdf",
+        "time": "10:30 - 11:20"
     }, 
     {
         "title": "軟體定義網路 – 思科ACI 解決方案介紹",
-        "speaker": "林煌錦(Jerry Lin)經理",
-        "intro": [
-            {"p": ""}
-        ],
-        "time": "上午"
+        "speaker": "林煌錦(Jerry Lin)經理 (台灣思科系統Cisco Systems)",
+        "time": "11:20 - 12:10"
     }, 
     {
-        "title": "休息時間",
-        "time": "中午"
+        "title": "午餐",
+        "time": "12:10 - 13:30"
     }, 
     {
-        "title": "黑客松",
+        "title": "黑客松 (暫定4201, 4202, 4204教室)",
+        "t_detailed": [
+            "經濟部 SDN創新應用競賽 參賽經驗分享~",
+            "2014 SDN創新應用競賽 冠軍隊伍”停不下來”",
+            "指導教授: 成功大學電機工程系  楊竹星教授"],
         "speaker": " ",
-        "time": "下午"
+        "time": "13:30 - 16:30"
+    }, 
+    {
+        "title": "賦歸",
+        "speaker": "",
+        "time": "16:30 - "
     }],
     "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7345.426147075085!2d120.2190858!3d22.9975762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e76ed290820d3%3A0xe0ee028be207a19e!2z5oiQ5Yqf5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1435907278435"
 }

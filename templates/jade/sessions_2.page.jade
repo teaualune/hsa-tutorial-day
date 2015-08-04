@@ -1,11 +1,13 @@
 extends layout.jade
 
 block content
-    h1 Sessions 議程 - 台北場
+    h1 Sessions 議程 - 台南場
     p
         | 日期：2015, 7/30 ~ 7/31
         br
-        | 地點：成功大學資訊工程學系
+        | 地點：成功大學資訊工程學系1樓4204室
+        br
+        a(href="/SDN2015Workshop/SDN_info/講者資訊.pdf", target="_blank") PDF完整資訊下載
     .session-table
         table.pure-table.pure-table-horizontal
             thead: tr
@@ -19,6 +21,13 @@ block content
                             td= s.time
                             td
                                 | #{s.title}
+                                if s.t_detailed
+                                    each t_d in s.t_detailed
+                                        br
+                                        | #{t_d}
+                                if s.file
+                                    p
+                                        a(href="/SDN2015Workshop/SDN_info/" + s.file, target="_blank") 檔案下載
                                 if s.intro
                                     | &nbsp;
                                     a.toggle(href="javascript:void(0);", onclick="t(" + index + ");")
